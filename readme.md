@@ -1,42 +1,43 @@
 # 3DModelWorld
 
-���^�Z�R�C�A���f��������� 3D World �G�f�B�^
+メタセコイアモデルを飾れる 3D World エディタ
+![edit.gif](https://raw.githubusercontent.com/elzup/3dmodel-space-exe/master/readme-res/edit.gif)
 
 ## KeyBind
 
 | Key      | Action                            |
 | ---      | ---                               |
-| Esc      | �I��                              |
-| w,s,a,d  | �O�㍶�E�̈ړ�(Ctrl �ō���)       |
-| Space    | �W�����v(Ctrl �ō���)             |
-| �z�C�[�� | �X���b�g�I��                      |
-| r        | ���\�[�X�p�b�N�I��                |
-| e        | �ҏW���[�h                        |
-| c        | TPS���_�؂�ւ�(Shift + c �Ŗ߂�) |
-| Ctrl + z | �߂�                              |
-| F6       | �Z�[�u                            |
-| F7       | ���[�h                            |
+| Esc      | 終了                              |
+| w,s,a,d  | 前後左右の移動(Ctrl で高速)       |
+| Space    | ジャンプ(Ctrl で高速)             |
+| ホイール | スロット選択                      |
+| r        | リソースパック選択                |
+| e        | 編集モード                        |
+| c        | TPS視点切り替え(Shift + c で戻す) |
+| Ctrl + z | 戻る                              |
+| F6       | セーブ                            |
+| F7       | ロード                            |
 
 
-## �ҏW���[�h KeyBind
+## 編集モード KeyBind
 | Key          | Action                            |
 | ---          | ---                               |
-| w,s,a,d      | �O�㍶�E�̈ړ�(Ctrl �ō���)       |
-| Shift + w, s | �g��k��       |
-| Shift + a, d | ��]       |
+| w,s,a,d      | 前後左右の移動(Ctrl で高速)       |
+| Shift + w, s | 拡大縮小       |
+| Shift + a, d | 回転       |
 
-EDIT�����̃I�u�W�F�N�g�͈ꎞ�I�ɓ����蔻�肪�Ȃ��Ȃ��Ă��܂��܂�
-SAVE��LOAD���ɓ����蔻�肪���f����܂�
+EDIT操作後のオブジェクトは一時的に当たり判定がなくなってしまいます
+SAVE＆LOAD時に当たり判定が反映されます
 
 
-## ���f���ɂ���
-/pack/object/�p�b�N�ԍ�/���f���ԍ�.mqo
-�ɂ�������������^�Z�R�C�A�t�@�C����ݒu
+## モデルについて
+/pack/object/パック番号/モデル番号.mqo
+にいくつか作ったメタセコイアファイルを設置
 
-## �X���b�g�摜�ɂ���
-/pack/object/�p�b�N�ԍ�/slot.png��
-��̃p�b�N�V�܂�
-�X���b�g�摜�̃T�C�Y�͔C�ӂł���
-40*40�����Ԃɉ��ɂV��
-280*40�̃T�C�Y��PNG
-�}�b�v�摜���΃p�X
+## スロット画像について
+/pack/object/パック番号/slot.pngに
+一つのパック７個まで
+スロット画像のサイズは任意ですが
+40*40を順番に横に７個
+280*40のサイズのPNG
+マップ画像相対パス
